@@ -5,4 +5,29 @@ html{
     background-repeat: no-repeat;
     height: 100vh;
     background-position: center;
+    background-size: cover;
 }
+
+/*Definir sua própria fonte*/
+@font-face {
+    font-family: maiden;
+    src: url("./maiden.ttf");
+}
+
+main{
+    font-family: sans-serif
+}
+
+.titulo-aula{
+    font-family: "maiden" , cursive;
+}
+
+.comentario{
+    color: red;
+    font-style: italic;
+}
+
+.titulo-css{
+    font-size: 3rem;
+}
+
