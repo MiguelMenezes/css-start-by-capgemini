@@ -18,16 +18,48 @@ main{
     font-family: sans-serif
 }
 
+/*Definir identação dos parágrafos dentro da tag main*/
+main p{
+    text-indent: 2rem;
+}
+
+/*Define a fonte dos títulos aulas*/
 .titulo-aula{
     font-family: "maiden" , cursive;
 }
 
+/*Define a cor e estilo dos comentários*/
 .comentario{
     color: red;
     font-style: italic;
 }
 
+/*Define o tamanho da fonte somente do titulo Aula CSS*/
 .titulo-css{
     font-size: 3rem;
+}
+
+/*Define o alinhamento dos h1 e h2*/
+h1, h2{
+    text-align: center;
+}
+
+/*Define o titulo da lista de aulas como sublinhado*/
+.titulo-lista-aulas{
+    text-decoration: underline;
+}
+
+/*Define a cor verde quando o link está com o botão clicado e muda o cursor para seta com interrogação*/
+a:active{
+    color: green;
+    cursor: help;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    color: blueviolet;
 }
 

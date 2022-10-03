@@ -1,0 +1,27 @@
+.box{
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-size: 3rem;
+    padding: 5px; /*Espaçamento interno*/
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.vermelho{
+    background-color: red;
+    border-width: 5px;
+    border-bottom-style: double;
+}
+
+.azul{
+    background-color: blue;
+    border-width: 10px 0px 5px 3px;
+}
+
+.verde{
+    background-color: green;
+    border-style: dashed;
+}
